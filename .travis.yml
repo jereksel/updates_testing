@@ -12,6 +12,6 @@ before_install:
   - ls -al
   - cp -R cm-11-20140422-UNOFFICIAL-codina backup
   - mkdir update
-  - python skrypt.py /home/travis/jereksel/updates_testing/cm-11-20140425-UNOFFICIAL-codina /home/travis/jereksel/updates_testing/cm-11-20140422-UNOFFICIAL-codina/home/travis/jereksel/updates_testing/update
+  - python skrypt.py /home/travis/jereksel/updates_testing/cm-11-20140425-UNOFFICIAL-codina /home/travis/jereksel/updates_testing/cm-11-20140422-UNOFFICIAL-codina /home/travis/jereksel/updates_testing/update
   - cd update
   - ls -al
