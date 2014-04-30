@@ -1,4 +1,5 @@
 before_install:
   - sudo apt-get install axel
+  - sudo apt-get install python
   - axel -n 10 http://fs1.d-h.st/download/00114/AI8/cm-11-20140425-UNOFFICIAL-codina.zip
   - axel -n 10 http://fs1.d-h.st/download/00114/hAI/cm-11-20140422-UNOFFICIAL-codina.zip
