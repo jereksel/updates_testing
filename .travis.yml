@@ -13,6 +13,6 @@ before_install:
   - mkdir update
   - pwd
   - python skrypt.py /home/travis/build/jereksel/updates_testing/cm-11-20140425-UNOFFICIAL-codina /home/travis/build/jereksel/updates_testing/cm-11-20140422-UNOFFICIAL-codina /home/travis/build/jereksel/updates_testing/update
-  - cp -R update/* backup
-  - diff -r cm-11-20140425-UNOFFICIAL-codina backup
+  - cp -R backup/* update
+  - diff -r cm-11-20140425-UNOFFICIAL-codina update
   - ls -al
