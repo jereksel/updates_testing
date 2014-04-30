@@ -1,0 +1,3 @@
+before_install:
+  - wget http://fs1.d-h.st/download/00114/AI8/cm-11-20140425-UNOFFICIAL-codina.zip
+  - wget http://fs1.d-h.st/download/00114/hAI/cm-11-20140422-UNOFFICIAL-codina.zip
