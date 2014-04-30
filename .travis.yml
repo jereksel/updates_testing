@@ -7,6 +7,6 @@ before_install:
   - cd cm-11-20140422-UNOFFICIAL-codina
   - unzip ../cm-11-20140422-UNOFFICIAL-codina.zip
   - cd ../cm-11-20140425-UNOFFICIAL-codina
-  - unzip cm-11-20140425-UNOFFICIAL-codina.zip 
+  - unzip ../cm-11-20140425-UNOFFICIAL-codina.zip 
   - cd ..
   - ls -al
