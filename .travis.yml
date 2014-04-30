@@ -2,6 +2,11 @@ before_install:
   - sudo apt-get install axel python unzip
   - axel -q -n 10 http://fs1.d-h.st/download/00114/AI8/cm-11-20140425-UNOFFICIAL-codina.zip
   - axel -q -n 10 http://fs1.d-h.st/download/00114/hAI/cm-11-20140422-UNOFFICIAL-codina.zip
-  - unzip cm-11-20140425-UNOFFICIAL-codina.zip
-  - unzip cm-11-20140422-UNOFFICIAL-codina.zip
+  - mkdir cm-11-20140422-UNOFFICIAL-codina
+  - mkdir cm-11-20140425-UNOFFICIAL-codina
+  - cd cm-11-20140422-UNOFFICIAL-codina
+  - unzip ../cm-11-20140422-UNOFFICIAL-codina.zip
+  - cd ../cm-11-20140425-UNOFFICIAL-codina
+  - unzip cm-11-20140425-UNOFFICIAL-codina.zip 
+  - cd ..
   - ls -al
